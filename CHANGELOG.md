@@ -5,30 +5,30 @@ If you want notifications you can open that page then: Click the arrow next to "
 
 ## 2.0.0
 
-- Added [kruumy-AdditionalGraphicalSettings](https://thunderstore.io/package/kruumy/AdditionalGraphicalSettings/)
-- Added [Goorakh-AttackDirectionFix](https://thunderstore.io/package/Goorakh/AttackDirectionFix/)
-- Added [Goorakh-AudioOverlapFix](https://thunderstore.io/package/Goorakh/AudioOverlapFix/)
-- Added [Goorakh-BetterLoadingScreen](https://thunderstore.io/package/Goorakh/BetterLoadingScreen/)
-- Added [Thrayonlosa-ColoredPingChat](https://thunderstore.io/package/Thrayonlosa/ColoredPingChat/)
-- Added [NotABot-EclipseMultiplayerDisconnectFix](https://thunderstore.io/package/NotABot/EclipseMultiplayerDisconnectFix/)
-- Added [Moffein-EviscerateFix](https://thunderstore.io/package/Moffein/EviscerateFix/)
-- Added [mwxmmy-FixBossHealthDisplay](https://thunderstore.io/package/mwxmmy/FixBossHealthDisplay/)
-- Added [Moffein-FixGenesisLoopConsoleSpam](https://thunderstore.io/package/Moffein/FixGenesisLoopConsoleSpam/)
-- Added [Nuxlar-FixREXCrash](https://thunderstore.io/package/Nuxlar/FixREXCrash/)
-- Added [Chinchi-FixVstr](https://thunderstore.io/package/Chinchi/FixVstr/)
-- Added [Moffein-FlurryFix](https://thunderstore.io/package/Moffein/FlurryFix/)
-- Added [DropPod-LookingGlass](https://thunderstore.io/package/DropPod/LookingGlass/)
-- Added [TheTimesweeper-LoadoutSkillTitles](https://thunderstore.io/package/TheTimesweeper/LoadoutSkillTitles/)
-- Added [Nebby-NegativeMaxHealthFix](https://thunderstore.io/package/Nebby/NegativeMaxHealthFix/)
-- Added [duckduckgreyduck-NegativeRegenFix](https://thunderstore.io/package/duckduckgreyduck/NegativeRegenFix/)
-- Added [OakPrime-NoBossNoWaitHostOnly](https://thunderstore.io/package/OakPrime/NoBossNoWaitHostOnly/)
-- Added [rob_gaming-OutOfBoundsItemsFix](https://thunderstore.io/package/rob_gaming/OutOfBoundsItemsFix/)
-- Added [Goorakh-PizzaClientLagFix](https://thunderstore.io/package/Goorakh/PizzaClientLagFix/)
-- Added [Nuxlar-RailgunnerCritFix](https://thunderstore.io/package/Nuxlar/RailgunnerCritFix/)
-- Added [Goorakh-RetryButton](https://thunderstore.io/package/Goorakh/RetryButton/)
-- Added [swuff-star-SafeTravelsInSkybox](https://thunderstore.io/package/swuff-star/SafeTravelsInSkybox/)
-- Added [NotABot-SimpleEclipseDisplay](https://thunderstore.io/package/NotABot/SimpleEclipseDisplay/)
-- Added [fiendtopia-VoidFiendHudTweaks](https://thunderstore.io/package/fiendtopia/VoidFiendHudTweaks/)
+- Added [AdditionalGraphicalSettings](https://thunderstore.io/package/kruumy/AdditionalGraphicalSettings/) by [kruumy](https://thunderstore.io/package/kruumy/) - Make your game look how you want to. Highly customizable!
+- Added [AttackDirectionFix](https://thunderstore.io/package/Goorakh/AttackDirectionFix/) by [Goorakh](https://thunderstore.io/package/Goorakh/) - Fixes attacks not always aiming where your crosshair is. Also known as the "Pierce Bug".
+- Added [AudioOverlapFix](https://thunderstore.io/package/Goorakh/AudioOverlapFix/) by [Goorakh](https://thunderstore.io/package/Goorakh/) - Prevents multiple instances of the same sound from playing within the same frame, resulting in a sound potentially becoming very loud. Clientside.
+- Added [BetterLoadingScreen](https://thunderstore.io/package/Goorakh/BetterLoadingScreen/) by [Goorakh](https://thunderstore.io/package/Goorakh/) - Accounts for more initialization in the loading screen. Reduces amount of time spent frozen on 100% when using lots of mods
+- Added [ColoredPingChat](https://thunderstore.io/package/Thrayonlosa/ColoredPingChat/) by [Thrayonlosa](https://thunderstore.io/package/Thrayonlosa/) - Colors item names and elites in chat from pings, and changes their icons
+- Added [EclipseMultiplayerDisconnectFix](https://thunderstore.io/package/NotABot/EclipseMultiplayerDisconnectFix/) by [NotABot](https://thunderstore.io/package/NotABot/) - Fixes an annoying issue where players all get disconnected instead of sent back to the lobby in eclipse.
+- Added [EviscerateFix](https://thunderstore.io/package/Moffein/EviscerateFix/) by [Moffein](https://thunderstore.io/package/Moffein/) - Prevents Mercenary Eviscerate from targeting allies. Client-Side and Vanilla-Compatible!
+- Added [FixBossHealthDisplay](https://thunderstore.io/package/mwxmmy/FixBossHealthDisplay/) by [mwxmmy](https://thunderstore.io/package/mwxmmy/) - Fix the issue with displaying Boss health incorrectly when it exceeds 2.1 billion. 修复Boss血量超过21亿导致显示错误的问题
+- Added [FixGenesisLoopConsoleSpam](https://thunderstore.io/package/Moffein/FixGenesisLoopConsoleSpam/) by [Moffein](https://thunderstore.io/package/Moffein/) - Fixes console spam from Genesis Loop when playing with certain custom skins and survivors. Client-side and Vanilla-compatible!
+- Added [FixREXCrash](https://thunderstore.io/package/Nuxlar/FixREXCrash/) by [Nuxlar](https://thunderstore.io/package/Nuxlar/) - Fixes REX's shift crashing the game or spamming errors.
+- Added [FixVstr](https://thunderstore.io/package/Chinchi/FixVstr/) by [Chinchi](https://thunderstore.io/package/Chinchi/) - Fix and enhance the vstr functionality (command aliases).
+- Added [FlurryFix](https://thunderstore.io/package/Moffein/FlurryFix/) by [Moffein](https://thunderstore.io/package/Moffein/) - Fixes Huntress Flurry losing arrows at high attack speed. Server-Side and Vanilla-Compatible!
+- Added [LookingGlass](https://thunderstore.io/package/DropPod/LookingGlass/) by [DropPod](https://thunderstore.io/package/DropPod/) - A QoL UI mod that exposes statistics for items and the player, adjusts the size and features of command and scrapper menus, and much more. Fully open source and compatible with RiskUI!
+- Added [LoadoutSkillTitles](https://thunderstore.io/package/TheTimesweeper/LoadoutSkillTitles/) by [TheTimesweeper](https://thunderstore.io/package/TheTimesweeper/) - Changes some characters with extra skill slots from 'Misc.' to more fitting names
+- Added [NegativeMaxHealthFix](https://thunderstore.io/package/Nebby/NegativeMaxHealthFix/) by [Nebby](https://thunderstore.io/package/Nebby/) - Stops the game setting your max health to negative, which happens for whatever reason.
+- Added [NegativeRegenFix](https://thunderstore.io/package/duckduckgreyduck/NegativeRegenFix/) by [duckduckgreyduck](https://thunderstore.io/package/duckduckgreyduck/) - Fixes regen multipliers on negative regen. Good for the Heretic!
+- Added [NoBossNoWaitHostOnly](https://thunderstore.io/package/OakPrime/NoBossNoWaitHostOnly/) by [OakPrime](https://thunderstore.io/package/OakPrime/) - NoBossNoWait by mrchous but only host needs mod. All credit to mrchous
+- Added [OutOfBoundsItemsFix](https://thunderstore.io/package/rob_gaming/OutOfBoundsItemsFix/) by [rob_gaming](https://thunderstore.io/package/rob_gaming/) - Fixes items dropping out of bounds by respawning them on the nearest ground node.
+- Added [PizzaClientLagFix](https://thunderstore.io/package/Goorakh/PizzaClientLagFix/) by [Goorakh](https://thunderstore.io/package/Goorakh/) - Fixes unpredictable multiplayer lag for Mithrix's pizza (big spinny) attack
+- Added [RailgunnerCritFix](https://thunderstore.io/package/Nuxlar/RailgunnerCritFix/) by [Nuxlar](https://thunderstore.io/package/Nuxlar/) - Fixes Railgunners crit damage from crit chance being halved
+- Added [RetryButton](https://thunderstore.io/package/Goorakh/RetryButton/) by [Goorakh](https://thunderstore.io/package/Goorakh/) - Adds a button to the defeat screen that restarts the last stage instead of ending the run. Server-side and vanilla compatible.
+- Added [SafeTravelsInSkybox](https://thunderstore.io/package/swuff-star/SafeTravelsInSkybox/) by [swuff-star](https://thunderstore.io/package/swuff-star/) - Adds the UES Safe Travels in the sky while playing as Captain.
+- Added [SimpleEclipseDisplay](https://thunderstore.io/package/NotABot/SimpleEclipseDisplay/) by [NotABot](https://thunderstore.io/package/NotABot/) - Displays Eclipse Level On Character Icon.
+- Added [VoidFiendHudTweaks](https://thunderstore.io/package/fiendtopia/VoidFiendHudTweaks/) by [fiendtopia](https://thunderstore.io/package/fiendtopia/) - A collection of customizable tweaks for Void Fiend's corruption hud
 - Updated [HIFU-BetterJumpPads](https://thunderstore.io/package/HIFU/BetterJumpPads/) 1.1.1 → 1.2.1
   - 1.1.2 Added two more jump pad tweaks.
   - 1.2.0 Jump pads now remove fall damage until you fall.

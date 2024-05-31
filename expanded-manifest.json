@@ -4,10 +4,7 @@
   "website_url": "https://github.com/fins-mods/REnhanced",
   "description": "An \"Enhanced Vanilla\" experience with quality-of-life improvements, minimal balance tweaks, and vanilla compatibility.",
   "dependencies": [
-         "Lodington-Aerolt-4.0.10",
-    "DestroyedClone-GoldChestForAll-1.0.11",
-              "Cyro-NoLockedInteractables-1.0.0",
-    "TheTimesweeper-SillyItems-1.3.2",
+
             "kruumy-AdditionalGraphicalSettings-1.1.1",
        "PlasmaCore3-AlwaysAllowOrbitalSkills-1.0.0",
            "Goorakh-AttackDirectionFix-1.1.1",
