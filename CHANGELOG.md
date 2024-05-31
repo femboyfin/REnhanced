@@ -3,6 +3,89 @@
 These are identical to those found [on GitHub](https://github.com/fins-mods/REnhanced/releases).
 If you want notifications you can open that page then: Click the arrow next to "Watch" at the top → Custom → Releases → Apply, and you'll get GitHub notifications (configurable to be push and/or email) whenever the modpack updates.
 
+## 2.0.0
+
+- Added [kruumy-AdditionalGraphicalSettings](https://thunderstore.io/package/kruumy/AdditionalGraphicalSettings/)
+- Added [Goorakh-AttackDirectionFix](https://thunderstore.io/package/Goorakh/AttackDirectionFix/)
+- Added [Goorakh-AudioOverlapFix](https://thunderstore.io/package/Goorakh/AudioOverlapFix/)
+- Added [Goorakh-BetterLoadingScreen](https://thunderstore.io/package/Goorakh/BetterLoadingScreen/)
+- Added [Thrayonlosa-ColoredPingChat](https://thunderstore.io/package/Thrayonlosa/ColoredPingChat/)
+- Added [NotABot-EclipseMultiplayerDisconnectFix](https://thunderstore.io/package/NotABot/EclipseMultiplayerDisconnectFix/)
+- Added [Moffein-EviscerateFix](https://thunderstore.io/package/Moffein/EviscerateFix/)
+- Added [mwxmmy-FixBossHealthDisplay](https://thunderstore.io/package/mwxmmy/FixBossHealthDisplay/)
+- Added [Moffein-FixGenesisLoopConsoleSpam](https://thunderstore.io/package/Moffein/FixGenesisLoopConsoleSpam/)
+- Added [Nuxlar-FixREXCrash](https://thunderstore.io/package/Nuxlar/FixREXCrash/)
+- Added [Chinchi-FixVstr](https://thunderstore.io/package/Chinchi/FixVstr/)
+- Added [Moffein-FlurryFix](https://thunderstore.io/package/Moffein/FlurryFix/)
+- Added [DropPod-LookingGlass](https://thunderstore.io/package/DropPod/LookingGlass/)
+- Added [TheTimesweeper-LoadoutSkillTitles](https://thunderstore.io/package/TheTimesweeper/LoadoutSkillTitles/)
+- Added [Nebby-NegativeMaxHealthFix](https://thunderstore.io/package/Nebby/NegativeMaxHealthFix/)
+- Added [duckduckgreyduck-NegativeRegenFix](https://thunderstore.io/package/duckduckgreyduck/NegativeRegenFix/)
+- Added [OakPrime-NoBossNoWaitHostOnly](https://thunderstore.io/package/OakPrime/NoBossNoWaitHostOnly/)
+- Added [rob_gaming-OutOfBoundsItemsFix](https://thunderstore.io/package/rob_gaming/OutOfBoundsItemsFix/)
+- Added [Goorakh-PizzaClientLagFix](https://thunderstore.io/package/Goorakh/PizzaClientLagFix/)
+- Added [Nuxlar-RailgunnerCritFix](https://thunderstore.io/package/Nuxlar/RailgunnerCritFix/)
+- Added [Goorakh-RetryButton](https://thunderstore.io/package/Goorakh/RetryButton/)
+- Added [swuff-star-SafeTravelsInSkybox](https://thunderstore.io/package/swuff-star/SafeTravelsInSkybox/)
+- Added [NotABot-SimpleEclipseDisplay](https://thunderstore.io/package/NotABot/SimpleEclipseDisplay/)
+- Added [fiendtopia-VoidFiendHudTweaks](https://thunderstore.io/package/fiendtopia/VoidFiendHudTweaks/)
+- Updated [HIFU-BetterJumpPads](https://thunderstore.io/package/HIFU/BetterJumpPads/) 1.1.1 → 1.2.1
+  - 1.1.2 Added two more jump pad tweaks.
+  - 1.2.0 Jump pads now remove fall damage until you fall.
+  - 1.2.0 Tweaked a whole bunch more jump pads to work properly.
+- Updated [JustDerb-BossAntiSoftlock](https://thunderstore.io/package/JustDerb/BossAntiSoftlock/) 1.0.3 → 1.0.4
+  - No changes provided by the mod author.
+- Updated [niwith-DropinMultiplayer](https://thunderstore.io/package/niwith/DropinMultiplayer/) 2.0.1 → 3.0.0
+  - Been a while since an update, this one updates the referenced DLLs
+- Updated [HIFU-HuntressAutoaimFix](https://thunderstore.io/package/HIFU/HuntressAutoaimFix/) 1.1.2 → 1.1.3
+  - No changes provided by the mod author.
+- Updated [KingEnderBrine-LobbySkinsFix](https://thunderstore.io/package/KingEnderBrine/LobbySkinsFix/) 1.2.0 → 1.2.1
+  - Added more error handling.
+- Updated [HIFU-LookStraightDown](https://thunderstore.io/package/HIFU/LookStraightDown/) 1.0.0 → 1.0.2
+  - 1.0.1 Fixed modded survivors not working.
+  - 1.0.2 No changes provided by the mod author.
+- Updated [Bubbet-NetworkedTimedBuffs](https://thunderstore.io/package/Bubbet/NetworkedTimedBuffs/) 1.0.2 → 1.0.3
+  - Use just networking api.
+- Updated [BetterPing-PingItemDescription](https://thunderstore.io/package/BetterPing/PingItemDescription/) 1.0.3 → 1.0.4
+  - Dependency should be fixed
+  - Fix: output by /pid others
+- Updated [KingEnderBrine-ProperSave](https://thunderstore.io/package/KingEnderBrine/ProperSave/) 2.8.11 → 2.10.0
+  - 2.9.0 Added config option to enable Steam/Epic games cloud storage support, allowing you to synchronize saves between devices.
+  - 2.9.0 Added config option to change saves directory.
+  - 2.9.1 Updated French translation, thanks NorthBlue333.
+  - 2.10.0 Fixes for Devotion update.
+  - 2.10.0 Added support for Devotion artifact
+- Updated [Rune580-Risk_Of_Options](https://thunderstore.io/package/Rune580/Risk_Of_Options/) 2.5.3 → 2.8.0
+  - 2.6.0 Added Method for setting mod descriptions with a language token.
+  - 2.6.0 Added event when the mod options panel is closed.
+  - 2.6.0 Slight behaviour change for color wheel, (I did this like a year ago and forgot to push it out in an update, so here you go.)
+  - 2.6.0 Any other commits that happened between last year and now.
+  - 2.6.1 Forgot to include some assets that are required for the color picker.
+  - 2.7.0 All numeric InputFields now properly use InvariantCulture, for example numbers are formatted as 1,000,000.20.
+  - 2.7.0 RiskOfOptions exposes an option to change this behavior in-game.
+  - 2.7.0 RiskOfOptions option menu. Experimental support for Prefabs as mod icons.
+  - 2.7.0 The root object's RectTransform must have a width and height of 45.
+  - 2.7.0 Animated icon has been updated.
+  - 2.7.1 StringInputFields have improved newline behavior.
+  - 2.7.1 InputFieldConfig has a new field lineType, it represents TMP's lineType enum.
+  - 2.7.1 SubmitEnum is now marked with the Flags attribute, should allow for more fine-tuned input field behavior.
+  - 2.7.1 Shift + Enter will always insert a newline, if the StringInputField is configured to allow newlines, without submitting. Because of the above changes, StringInputFields may behave differently to prior versions. If you relied on the previous behavior, sorry for making more work for you, but this should make input fields be more reliable. In addition the default behavior for StringInputFields are MultiLineSubmit as this mimics the previous behavior the closest.
+  - 2.7.2 Added richText bool field to InputFieldConfig to configure how the in-game input field handles rich text.
+  - 2.8.0 Added FloatFieldOption, FloatFieldConfig - Slider option but without the slider
+  - 2.8.0 Added IntFieldOption, IntFieldConfig - IntSlider but without the slider :smirk_cat:
+  - 2.8.0 Changed The background image of the InputField is now Sliced instead of Simple which results in it not looking stretched anymore.
+  - 2.8.0 RoO is now on https://www.nuget.org/packages/Rune580.Mods.RiskOfRain2.RiskOfOptions
+- Removed BetterUI because the mod author destroyed it, LookingGlass is it's new replacement
+- Removed BetterGameplay because the mod author destroyed it, OutOfBoundsItemsFix is it's new replacement.
+- Removed ItemCounters because this functionality is included in LookingGlass
+- Removed NeverEndingRun and included it in the Extras modpack because it does affect balance quite a bit if you take advantage of the shops in Commencement
+- Removed NoLockedInteractables and included it in the Extras modpack because it does affect balance quite a bit allowing you to get an item that could potentially sway a boss fight mid-fight.
+- Removed NoBossNoWait because it's been replaced by the more-favorable NoBossNoWaitHostOnly
+- Removed RespawnAfterBoss because it breaks the Voidling boss.
+- Removed ShowDeathCause because this functionality is included in WolfoQualityOfLife.
+- Included config files for: ProperSave, FixPlayercount, and LoadoutSkillTitles
+- Tweaked some old changelogs to fix typos.
+
 ## 1.2.0
 
 - Added [BetterJumpPads](https://thunderstore.io/package/HIFU/BetterJumpPads/) by [HIFU](https://thunderstore.io/package/HIFU/) - Makes Jump Pads not lock your momentum.
@@ -17,7 +100,7 @@ If you want notifications you can open that page then: Click the arrow next to "
 - Updated [Engi_M1_Autofire](https://thunderstore.io/package/Moffein/Engi_M1_Autofire/) 1.1.4 → 1.2.0
   - Risk of Options support.
   - Fixed a bunch of config options being missing.
-- Updated [HighItemVizability](https://thunderstore.io/package/VizMod/HighItemVizability/) 1.0.0 1.4.0
+- Updated [HighItemVizability](https://thunderstore.io/package/VizMod/HighItemVizability/) 1.0.0 → 1.4.0
   - 1.4.0 Added item indicator arrows similar to the red boss indicator arrows to better locate items
   - 1.3.1 Adjusted red item sound and added command to turn all sounds off
   - 1.3.0 Added ChaosMode and item pickup speed control
@@ -114,7 +197,7 @@ If you want notifications you can open that page then: Click the arrow next to "
 
 ## 1.0.1 Remove an extra temp file
 
-- Delete a missed temporary file 1.0.1 Remove an extra temp file
+- Delete a missed temporary file
 
 ## 1.0.0 Initial release
 

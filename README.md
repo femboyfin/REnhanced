@@ -24,10 +24,6 @@ This is of course a balancing act. So there are some mods I was on the fence abo
 
 ### The ones I kept
 
-#### [RespawnAfterBoss](https://thunderstore.io/package/neutrino-steak/RespawnAfterBoss/) by [neutrino-steak](https://thunderstore.io/package/neutrino-steak/)
-
-Respawns all dead players once all bosses have been defeated. This means if 1 out of 4 players are alive at the end of the teleporter event, instead of all of the boss drops going to them, the other players can get their share so they don't fall behind (plus if they died, they could probably use the help from the extra items).
-
 #### [TooManyFriends](https://thunderstore.io/package/wildbook/TooManyFriends/) by [wildbook](https://thunderstore.io/package/wildbook/)
 
 Allows you to play with more than just 4 players per lobby. The base game's player count-scaling wasn't designed with more than 4 player lobbies in mind, however since the mod only introduces that edge case perplexion once the mod becomes necessary, it's somewhat of a "necessary evil" with no better alternative.
@@ -51,6 +47,14 @@ Even though you could argue being able to visually see how many items each playe
 #### [RiskOfRave](https://thunderstore.io/package/RuneFox237/RiskOfRave/) by [RuneFox237](https://thunderstore.io/package/RuneFox237/)
 
 Plays the song Caramelldansen and adds rainbow post processing effects during teleporter events. The only utility it has is indirectly reminding you to stay inside the teleporter circle by muffling the music when you're outside of it. Also volume preferences will differ from setup to setup and it needs to be adjusted in the config which is a bit obtrusive.
+
+#### [NoLockedInteractables](https://thunderstore.io/package/Cuckson/NeverEndingRun/) by [Cuckson](https://thunderstore.io/package/Cuckson/)
+
+Prevents 3D printers, shrines, etc. from being locked when the teleporter event starts. Originally I saw this as a quality of life improvement. However since there's zero drawback, it really just means you can accomplish more within the same time period, which very obviously does affect balance.
+
+#### [NeverEndingRun](https://thunderstore.io/package/Cyro/NoLockedInteractables/) by [Cyro](https://thunderstore.io/package/Cyro/)
+
+Spawns a portal once mythrix has been defeated, allowing you to leave Commencement and continue your run. This again is something I saw as a QoL improvement at first, but thinking about it now, it lets you access all of the interactables Commencement has to offer.
 
 ## Known Issues
 
