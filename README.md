@@ -1,8 +1,6 @@
 # REnhanced Modpack
 
-TL;DR It's an "Enhanced Vanilla" experience with a lot of quality-of-life enhancement mods, minimal balance tweaks\*, and vanilla compatibility.
-
-**Thank you so much for over 2500 Downloads!**
+TL;DR It's an "Enhanced Vanilla" experience with a lot of quality-of-life enhancement mods, minimal balance tweaks\*, and vanilla compatibility. Feel free to use it as a base for your modpack with friends or do whatever with it, but if you do a like on [Thunderstore](https://thunderstore.io/package/fin/REnhanced/#) would be appreciated!
 
 ## Better explanation
 
@@ -20,13 +18,13 @@ The way I see it, there's **a lot** of small tweaks (both flaw fixes and feature
 
 ## Where I draw the "vanilla flavored" line
 
-This is of course a balancing act. So there are some mods I was on the fence about and chose to keep, and others that I decided not to. Since they're borderline and you might have different opinions, I'll list the iffy ones below.
+This is of course a balancing act. There are some mods I was on the fence about and chose to keep, and others that I decided not to. Since they're borderline and you might have different opinions, I'll list the iffy ones below.
 
 ### The ones I kept
 
 #### [TooManyFriends](https://thunderstore.io/package/wildbook/TooManyFriends/) by [wildbook](https://thunderstore.io/package/wildbook/)
 
-Allows you to play with more than just 4 players per lobby. The base game's player count-scaling wasn't designed with more than 4 player lobbies in mind, however since the mod only introduces that edge case perplexion once the mod becomes necessary, it's somewhat of a "necessary evil" with no better alternative.
+Allows you to play with more than just 4 players per lobby. The base game's player count-scaling wasn't designed with greater-than-4-player lobbies in mind, however since the mod only introduces that edge case once the mod becomes necessary, it's somewhat of a "necessary evil" with no better alternative.
 
 ### The ones I didn't
 
@@ -56,15 +54,16 @@ Prevents 3D printers, shrines, etc. from being locked when the teleporter event 
 
 Spawns a portal once mythrix has been defeated, allowing you to leave Commencement and continue your run. This again is something I saw as a QoL improvement at first, but thinking about it now, it lets you access all of the interactables Commencement has to offer.
 
+#### [RealerCheatUnlocks](https://thunderstore.io/package/prodzpod/RealerCheatUnlocks/) by [prodzpod](https://thunderstore.io/package/prodzpod/)
 ## Known Issues
 
-None currently, if you run into anything please contact me on Discord either by DMs ([Fin#1337](https://discord.com/users/386945522608373785)) or by @mentioning me in the [Risk Of Rain 2 Modding](https://discord.com/invite/5MbXZvd) Discord server.
-Alternatively you can open an [Issue](https://github.com/fins-mods/REnhanced/issues/new) on GitHub but you'll definitely get a slower response.
+None currently, if you run into anything please contact me on Discord either by DMs ([@femboyfin](https://discord.com/users/386945522608373785)) or in [my Discord Server](https://discord.com/invite/tcrB28MWk8) Discord server (you'll have to give me some time to give you permissions!).
+Alternatively you can open an [Issue](https://github.com/fins-mods/REnhanced/issues/new) on GitHub but you'll definitely get a slower response compared to Discord.
 
 ## Notes
 
 - \* Balance tweaks that do exist should be imperceptible without a direct 1:1 comparison (you'd fail a blind test)
-- † I have a beefy computer, my friends have beefy computers. If you don't have 8GB of RAM free for the game to use, disable StutterStunterFork. **DO NOT** complain to the StutterStunterFork maintainers, you will run into issues, you have been warned
+- † I have a beefy computer, my friends have beefy computers. If you don't have 8+ gigabytes of RAM free for the game to use, disable StutterStunterFork. **DO NOT** complain to the StutterStunterFork maintainers, you will run into issues, you have been warned
 
 ---
 

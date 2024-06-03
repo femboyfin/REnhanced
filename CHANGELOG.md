@@ -3,6 +3,19 @@
 These are identical to those found [on GitHub](https://github.com/fins-mods/REnhanced/releases).
 If you want notifications you can open that page then: Click the arrow next to "Watch" at the top → Custom → Releases → Apply, and you'll get GitHub notifications (configurable to be push and/or email) whenever the modpack updates.
 
+## 2.0.1
+
+- Updated [LookingGlass](https://thunderstore.io/package/DropPod/LookingGlass/changelog/) 1.6.2 → 1.7.0
+  - 1.6.3 Fixed healthPercentage not using the float precision option
+  - 1.7.0 Fixed equipment not always showing their full descriptions.
+  - 1.7.0 Added option to adjust how long pickup display notifications last.
+  - 1.7.0 Added difficultyCoefficient to StatsDisplay as an option.
+  - 1.7.0 Made the item calculations for item stats optional.
+- Updated [QuickRestart](https://thunderstore.io/package/AceOfShades/QuickRestart/) 1.4.2 → 1.5.0
+  - Improve button appearance and scaling
+- Included config file for StutterStunterFork. Configurable options are all doubled compared to the default config (Max memory usage 3000 → 6000, Memory usage warning 2000 → 4000, Scan interval 60 → 120). Prevents chat warnings from happening as often.
+- Updated README
+
 ## 2.0.0
 
 - Added [AdditionalGraphicalSettings](https://thunderstore.io/package/kruumy/AdditionalGraphicalSettings/) by [kruumy](https://thunderstore.io/package/kruumy/) - Make your game look how you want to. Highly customizable!
