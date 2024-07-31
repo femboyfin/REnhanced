@@ -3,6 +3,27 @@
 These are identical to those found [on GitHub](https://github.com/fins-mods/REnhanced/releases).
 If you want notifications you can open that page then: Click the arrow next to "Watch" at the top → Custom → Releases → Apply, and you'll get GitHub notifications (configurable to be push and/or email) whenever the modpack updates.
 
+## 2.0.2
+
+- Updated [VoidFiendHudTweaks](https://thunderstore.io/package/fiendtopia/VoidFiendHudTweaks/changelog/) 1.0.1 → 1.0.2
+  - Fix error spam in console when another player modifies their own corruption if Corruption Delta Notices was enabled
+- Updated [PizzaClientLagFix](https://thunderstore.io/package/Goorakh/PizzaClientLagFix/changelog/) 1.2.0 → 1.2.1
+  - Fixed drones not taking any damage from pizza or shockwaves
+- Updated [LookingGlass](https://thunderstore.io/package/DropPod/LookingGlass/changelog/) 1.7.0 → 1.8.3
+  - 1.8.3 Minor fix for pickuip descriptions on items without descriptions
+  - 1.8.2 Fixed default config for statsdisplay using baseDamage not damage
+  - 1.8.1 Fixed item sorting bugs with Regenerating Scrap. Re-added a few "for fun" item stats that got removed. Added option to show corrupted item info in the command menu.
+  - 1.8.0 Hude thanks to Warmek and SSM240 for 99% of this update. Added a new internal calculateValuesNew alternative to calculateValues for items. Fixed descriptions of items that have no descriptions. Added cooldown/proc information for skills. Added more options for item sorting, you can now sort them in very intricate ways if you so desire. Added stage to statsdisplay.
+  - 1.7.4 Fixed the wording slightly in the "one more" text. Added basic proc info to abilities.
+  - 1.7.3 Fixed math issue with items that have exponentially scaling cooldown reduction.
+  - 1.7.2 Quick fix for some calculations going in reverse if you exceed 100% chance
+  - 1.7.1 Big thanks to shirograhm for this update. Refactor of the backend for itemstats definitions/stats definitions to be much more readable. Adjusted definitions of some item stats to be more accurate.
+- Updated [LoadoutSkillTitles](https://thunderstore.io/package/TheTimesweeper/LoadoutSkillTitles/) 1.0.0 → 1.0.1
+  - fix incompatibility with dragon's dbz characters
+- Updated [FadeEmptyChests](https://thunderstore.io/package/SSM24/FadeEmptyChests/changelog/) 1.1.0 → 1.1.1
+  - Fixed the Delusion Artifact keeping chests faded out.
+  - Moved the changelog to its own file cus that's a thing now I guess.
+
 ## 2.0.1
 
 - Updated [LookingGlass](https://thunderstore.io/package/DropPod/LookingGlass/changelog/) 1.6.2 → 1.7.0
