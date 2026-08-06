@@ -80,7 +80,7 @@ Been a while! Thanks for over 6900 (nice) downloads!
   - 2.11.0 Fixed an issue where save files wouldn't be deleted on gameover when using cloud store unless you restarted the game after save was made.
 - Updated [ItemExchangeNotifier](https://thunderstore.io/c/riskofrain2/p/MagnusMagnuson/ItemExchangeNotifier/) 1.4.1 -> 1.4.2
   - Updated dependencies
-- Updated [ScannerPlusOne](https://thunderstore.io/c/riskofrain2/p/MagnusMagnuson/ScannerPlusOne/) 2.7.0 -> 2.7.4
+- Updated [ScannerPlusOne](https://thunderstore.io/c/riskofrain2/p/MagnusMagnuson/ScannerPlusOne/) 2.7.0 -> 2.7.1
   - 2.7.1 Updated dependencies
 - Updated [BossKillTimer](https://thunderstore.io/c/riskofrain2/p/Moffein/BossKillTimer/changelog/) 1.0.3 -> 2.0.1
   - 2.0.1 Attempted to fix double chat messages.
