@@ -58,7 +58,7 @@ Spawns a portal once mythrix has been defeated, allowing you to leave Commenceme
 ## Known Issues
 
 None currently, if you run into anything please contact me on Discord either by DMs ([@femboyfin](https://discord.com/users/386945522608373785)) or in [my Discord Server](https://discord.com/invite/tcrB28MWk8) Discord server (you'll have to give me some time to give you permissions!).
-Alternatively you can open an [Issue](https://github.com/fins-mods/REnhanced/issues/new) on GitHub but you'll definitely get a slower response compared to Discord.
+Alternatively you can open an [Issue](https://github.com/femboyfin/REnhanced/issues/new) on GitHub but you'll definitely get a slower response compared to Discord.
 
 ## Notes
 

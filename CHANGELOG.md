@@ -1,9 +1,240 @@
 # Changelog
 
-These are identical to those found [on GitHub](https://github.com/fins-mods/REnhanced/releases).
+These are identical to those found [on GitHub](https://github.com/femboyfin/REnhanced/releases).
 If you want notifications you can open that page then: Click the arrow next to "Watch" at the top → Custom → Releases → Apply, and you'll get GitHub notifications (configurable to be push and/or email) whenever the modpack updates.
 
+## 3.0.0 Revival
+
+Been a while! Thanks for over 6900 (nice) downloads!
+
+- Added [RiskyTweaks](https://thunderstore.io/c/riskofrain2/p/Risky_Lives/RiskyTweaks) - Vanilla-compatible tweaks to basegame content. Some are server-side, some are client-side. Every feature can be toggled in the config!
+  - This replaces the now deprecated Engi_M1_Autofire, EviscerateFix, Fix Playercount, and FlurryFix
+- Added [RiskyFixes](https://thunderstore.io/c/riskofrain2/p/Risky_Lives/RiskyFixes/) - Vanilla-compatible fixes to basegame content. Some are server-side, some are client-side.
+- Added [Skip Intro Deluxe](https://thunderstore.io/c/riskofrain2/p/Hibiscus/Skip_Intro_Deluxe/) - Makes FixIntroSkip work automatically
+  - This replaces the now deprecated SkipIntro
+- Added [AutoSkipCredits](https://thunderstore.io/c/riskofrain2/p/Moffein/AutoSkipCredits/) - Automatically skips the ending credits. Can set config to skip the outro cutscene as well. Server-Side and Vanilla-Compatible!
+  - This replaces the now deprecated SkipToOutroText
+- Changed wildbook/[TooManyFriends](https://thunderstore.io/c/riskofrain2/p/wildbook/TooManyFriends/) 1.2.1 -> Moffein/[TooManyFriends](https://thunderstore.io/c/riskofrain2/p/Moffein/TooManyFriends/changelog/) 1.2.5
+  - Original deprecated.
+  - 1.2.5 Attempted to fix mod not being server-side.
+  - 1.2.4 Fixed internal namespace.
+  - 1.2.3 Fixed console commands?
+  - 1.2.2 Fixed for DLC2
+- Added [Teleporter Turrets](https://thunderstore.io/c/riskofrain2/p/RuneFox237/Teleporter_Turrets/)
+  - This partially replaces the now deprecated Quality of Rain
+- Added [RamuneCommandPauseRemade](https://thunderstore.io/c/riskofrain2/p/RamuneNeptune/RamuneCommandPauseRemade/)
+  - This partially replaces the now deprecated Quality of Rain
+- Added [LunarCoinShareOnPickup](https://thunderstore.io/c/riskofrain2/p/KingOblivion/LunarCoinShareOnPickup/)
+  - This partially replaces the now deprecated Quality of Rain
+- Added [BalancedFasterInteractables](https://thunderstore.io/c/riskofrain2/p/riskofresources/BalancedFasterInteractables/)
+  - This partially replaces the now deprecated Quality of Rain
+- Updated [PizzaClientLagFix](https://thunderstore.io/c/riskofrain2/p/Goorakh/PizzaClientLagFix/changelog/) 1.2.1 -> 1.3.3
+  - 1.3.3 Fixed for Alloyed Collective v1.4.1 patch
+  - 1.3.2 Fixed for SotS Items & Elites patch
+  - 1.3.2 Fixed non-rotating Pizza variant not having the lag fix
+  - 1.3.2 Mod Compatibility: Fixed certain attacks from Umbral Mithrix not having the lag fix
+  - 1.3.1 Fixed an issue where certain attacks would not deal damage for non-host players
+  - 1.3.0 Fixed for SotS
+- Updated [Retry Button](https://thunderstore.io/c/riskofrain2/p/Goorakh/RetryButton/changelog/) 1.0.1 -> 1.0.2
+  - Updated for SotS
+  - Possibly fixed an issue where the run seed would persist after winning a run
+- Updated [HuntressAutoaimFix](https://thunderstore.io/c/riskofrain2/p/HIFU/HuntressAutoaimFix/changelog/) 1.1.3 -> 1.2.0
+  - Updated for SOTS.
+  - Added config option for range level scaling.
+- Updated [LookStraightDown](https://thunderstore.io/c/riskofrain2/p/HIFU/LookStraightDown/changelog/) 1.0.2 -> 1.0.5
+  - 1.0.4 Updated for SOTS
+  - 1.0.3 Fixed not null checking,,,,,,,
+- Updated [BossAntiSoftlock](https://thunderstore.io/c/riskofrain2/p/JustDerb/BossAntiSoftlock/changelog/) 1.0.4 -> 1.0.6
+  - 1.0.6 Added a new button to the pause menu to easily reset bosses without typing
+  - 1.0.5 Update code to work with the new Risk of Rain 2 DLC: Seekers of the Storm
+- Updated [LobbySkinsFix](https://thunderstore.io/c/riskofrain2/p/KingEnderBrine/LobbySkinsFix/changelog/) 1.2.1 -> 1.2.4
+  - 1.2.4 Fixed an issue where GameObjectActivations weren't restored correctly.
+  - 1.2.3 Fixes for `Alloyed Collective` update.
+  - 1.2.2 Fixed for `Memory Optimization` update.
+- Updated [ProperSave](https://thunderstore.io/c/riskofrain2/p/KingEnderBrine/ProperSave/changelog/) 2.10.0 -> 3.0.7
+  - 3.0.7 Fixed an error when saving some modded data.
+  - 3.0.6 Added more error handling during loading.
+  - 3.0.6 Temporarily reverted a breaking change, which should fix mod compatibility.
+  - 3.0.5 Slightly reduced save file size by using packed ints.
+  - 3.0.5 Changed `ModdedData` serialization from json to binary format, this should reduce save file size and allow supporing more types for serialization.
+  - 3.0.4 Fixed an issue where some issue with unlockables would prevent saving.
+  - 3.0.3 Fixed an issue where loading a save after completing artifact trial for Artifact of Metamorphosis you would spawn as the character you started the game with, instead of the character you got during trial.
+  - 3.0.3 Fixed an issue where an error during saving would leave a broken save file that you can't load.
+  - 3.0.2 Fixed an issue where loading would break halfway when some mods are present.
+  - 3.0.1 Fixed an issue where old save file wouldn't be overwritten after starting a new run without loading.
+  - 3.0.0 Changed save file format from json to binary, existing saves should automatically migrate to the new format.
+  - 3.0.0 Added config option to change save type.
+  - 3.0.0 Fixed an issue where transitioning a scene while having broken operator drones would result in non-reparable drones after loading.
+  - 2.13.3 Fixed an issue where loading a run in `Conduit Canyon` as the first run after launching the game will cause teleporter to become non-interactable.
+  - 2.13.2 Fixed an issue where going to next stage after someone disconnected would cause a black screen and constant error spam.
+  - 2.13.1 Fixed an issue where `Artifact of Prestige` data wouldn't save.
+  - 2.13.0 Fixes for `Alloyed Collective` update.
+  - 2.13.0 Eclipse win should now count towards the character you started the save with, not the one you had selected before save loading.
+  - 2.13.0 Added `ps_force_load` command for debug purposes.
+  - 2.12.1 Added Japanese translation, thanks `WakefulSpect`.
+  - 2.12.0 Fixes for 1.3.6 update.
+  - 2.11.2 Fixed an issue where Prayer beads' stats bonuses wouldn't save/load.
+  - 2.11.2 Fixed Ukrainian localization, thanks `Damglador`.
+  - 2.11.1 Fixed an issue where Equipment cooldown would be run time + leftover cooldown time.
+  - 2.11.0 Fixes for `Seekers of the Storm` update.
+  - 2.11.0 Fixed an issue where save files wouldn't be deleted on gameover when using cloud store unless you restarted the game after save was made.
+- Updated [ItemExchangeNotifier](https://thunderstore.io/c/riskofrain2/p/MagnusMagnuson/ItemExchangeNotifier/) 1.4.1 -> 1.4.2
+  - Updated dependencies
+- Updated [ScannerPlusOne](https://thunderstore.io/c/riskofrain2/p/MagnusMagnuson/ScannerPlusOne/) 2.7.0 -> 2.7.4
+  - 2.7.1 Updated dependencies
+- Updated [BossKillTimer](https://thunderstore.io/c/riskofrain2/p/Moffein/BossKillTimer/changelog/) 1.0.3 -> 2.0.1
+  - 2.0.1 Attempted to fix double chat messages.
+  - 2.0.0 Rewrote mod to improve performance.
+  - 2.0.0 No longer triggers AddComponent/GetComponent on every damage instance.
+  - 2.0.0 Fixed kill timers showing for Player Team boss deaths.
+  - 1.0.4 Recompiled for DLC2.
+- Updated [QuickRestart](https://thunderstore.io/c/riskofrain2/p/AceOfShades/QuickRestart/) 1.5.0 -> 1.6.1
+  - 1.6.1 Add an option for disabling the character select button
+  - 1.6.0 Add an option for skipping the confirmation dialog on the first stage
+  - 1.5.3 Bugfix for confirmation dialog
+  - 1.5.2 Bugfixes for multiplayer
+  - 1.5.1 New build for game version (1.3.1)
+- Updated [PingItemDescription](https://thunderstore.io/c/riskofrain2/p/BetterPing/PingItemDescription/) 1.0.4 -> 1.0.5
+  - Updated to support the latest version
+- Updated [ZioConfigFile](https://thunderstore.io/c/riskofrain2/p/Bubbet/ZioConfigFile/) 1.0.1 -> 1.0.2
+  - 1.0.2 Drop required bepinex version
+- Updated [ChatboxEdit](https://thunderstore.io/c/riskofrain2/p/DestroyedClone/ChatboxEdit/changelog/) 1.0.1 -> 1.0.2
+  - Fixed for Alloyed Collective
+  - Added Risk of Options support
+  - Added hotreloading config options
+- Updated [LookingGlass](https://thunderstore.io/c/riskofrain2/p/DropPod/LookingGlass/changelog/) 1.8.3 -> 1.15.2
+  - Too many to list, see the [official changelog](https://thunderstore.io/c/riskofrain2/p/DropPod/LookingGlass/changelog/) for a list of changes.
+- Updated [VoidFiendHudTweaks](https://thunderstore.io/c/riskofrain2/p/fiendtopia/VoidFiendHudTweaks/changelog/) 1.0.2 -> 1.0.3
+  - 1.0.3 Update for SotS
+  - 1.0.3 Fixed timer while corrupted being inaccurate
+  - 1.0.3 Reduced dependencies down to just R2API Core (only other dependencies are R2API dependencies, so they'll get downloaded anyway)
+- Updated [AttackDirectionFix](https://thunderstore.io/c/riskofrain2/p/Goorakh/AttackDirectionFix/changelog/) 1.1.1 -> 1.2.7
+  - 1.2.7 Added public API for other mods to register projectiles into the aim direction blacklist.
+  - 1.2.6 Fixed Drifter's Junk Cube no longer being excluded after Alloyed Collective patch v1.4.1
+  - 1.2.5 Excluded Drifter's Junk Cube from the mod, as the fix doesn't make sense for it and introduced differences to vanilla in the cube's spawn position.
+  - 1.2.4 Updated for Alloyed Collective
+  - 1.2.3 Fixed stationary projectiles sometimes spawning in the wrong location and shifting weirdly.
+  - 1.2.2 Fixed some projectile visuals appearing in the wrong position for the first frame after being fired
+  - 1.2.1 Fixed enemy attacks being affected by the fix and behaving unexpectedly
+  - 1.2.0 Fixed for SotS
+  - 1.2.0 Improved visual offset for certain projectiles
+- Updated [AudioOverlapFix](https://thunderstore.io/c/riskofrain2/p/Goorakh/AudioOverlapFix/changelog/) 1.2.0 -> 1.2.1
+  - 1.2.1 Fixed for SotS
+- Updated [NoMoreMath](https://thunderstore.io/c/riskofrain2/p/Goorakh/NoMoreMath/changelog/) 1.3.0 -> 2.1.2
+  - 2.1.2 Fixed Warped Echo not being accounted for in effective health calculations.
+  - 2.1.1 Fixed Executive Card discount still showing in Effective Cost when the equipment is on cooldown
+  - 2.1.0 Halcyon Shrine progress display:
+    - Added {money_spent} parameter
+    - Added {money_required} parameter
+    - Changed default display to use these parameters instead of percentage
+  - 2.0.1 Fixed incompatibility with HealthbarImmune
+  - 2.0.0 Complete rewrite, should have all the same features, contact me if you notice anything that is missing.
+  - 2.0.0 Fixed for SotS
+  - 2.0.0 Added charge progress display to Halcyon Shrines
+  - 2.0.0 Fixed some multiplayer desync issues
+    - Every player now needs to have the mod installed
+- Updated [NoBazaarKickout](https://thunderstore.io/c/riskofrain2/p/Moffein/NoBazaarKickout/changelog/) 1.0.1 -> 1.0.4
+  - 1.0.4 Reverted AI changes, removed authority check from Newt state change.
+  - 1.0.3 Now disables Newt AI as well to fix cases where he was still kicking people out.
+  - 1.0.2 Recompiled for DLC2.
+- Updated [DropinMultiplayer](https://thunderstore.io/c/riskofrain2/p/niwith/DropinMultiplayer/) 3.0.0 -> 4.2.1
+  - 4.2.1 Long time no update, fixed a couple bugs with a few merged pull requests
+    - Thank you to @timlag1305 (https://github.com/timlag1305) for pull request "Fix null respawn, cleanup project build" (https://github.com/niwith/DropInMultiplayer/pull/26)
+    - Thank you to @viliger2 (https://github.com/viliger2) for pull request "Fix for join_as restoring original body on stage change" (https://github.com/niwith/DropInMultiplayer/pull/25)
+    - Thank you to @Mistaf (https://github.com/Mistaf) for pull request "Fix typo in catch up items configuration#24" https://github.com/niwith/DropInMultiplayer/pull/24
+  - 4.2.0 Updated to be compatible with Alloyed Collective
+    - Switched to using new versions of add, remove and count items that only interact with permenant items
+    - Fixed issue that would allow players to respawn using /join if they were remote operating a drone
+  - 4.1.0 Merged pull request "Config option for Heretic Items, Config option to prevent Captain Scrap Abuse" (https://github.com/niwith/DropInMultiplayer/pull/21)
+    - Fixes to prevent edge case where infinite red scrap could be obtained by getting new Microbots when spawning as Captain (with config to revet this behaviour, default is to prevent scrap abuse)
+    - Adds config to toggle if using join as heritic should give the 4 requried items (default is to give the 4 items)
+    - Big thank you to @Moffein (https://github.com/Moffein) for the PR
+  - 4.1.0 Fix for issue "Missing return statement; causes NullReferenceException" (https://github.com/niwith/DropInMultiplayer/issues/18)
+  - 4.0.0 Updated referenced DLLs so that the build is compatible with the updates made in the main game update of Seekers of the Storm
+  - 4.0.0 Have not tested with the DLC itself, any of the new characters or items. I assume these will work without issue, but please let me know if that's not the case
+  - 4.0.0 This fix worked with my local testing, however as always please report the issue and include your logs files
+- Updated [RemoveScreenEffectsTintsAndDistortions](https://thunderstore.io/c/riskofrain2/p/PseudoCoffee/RemoveScreenEffectsTintsAndDistortions/) 1.0.3 -> 1.1.1
+- Updated [HookGenPatcher](https://thunderstore.io/c/riskofrain2/p/RiskofThunder/HookGenPatcher/) 1.2.3 -> 1.2.9
+- Updated [OutOfBoundsItemsFix](https://thunderstore.io/c/riskofrain2/p/public_ParticleSystem/OutOfBoundsItemsFix/) rob_gaming/1.0.0 -> public_ParticleSystem/1.0.1
+  - Fixed for SOTS
+- Updated [Risk Of Options](https://thunderstore.io/c/riskofrain2/p/Rune580/Risk_Of_Options/changelog/) 2.8.0 -> 2.8.5
+  - 2.8.5 Re-added changes from 2.8.3.
+  - 2.8.5 Add a "modified" indicator to the side of options that have been modified (similar to indicator in VS Code settings) by @itsschwer
+    - Options that have a non-default value show a blue "modified" indicator.
+    - Options that have been modified and can be reverted using the "Revert" button (now "Reset to Default") show a yellow "modified" indicator. This takes precedence over the blue non-default indicator.
+    - These colors can be configured.
+  - 2.8.5 Add a setting to StepSliderConfig called remapManualInputToStep to allow text entry of values that are not remapped to the nearest increment. by @itsschwer
+  - 2.8.5 Fixed Choice Options indentations changes by @itsschwer
+  - 2.8.4 Rollback to the codebase of 2.8.2 as I've seen reports of 2.8.3 being borked. I'll fix the recent changes later.
+  - 2.8.3 Custom localization for options by @TheAshenWolf
+  - 2.8.3 Fix positioning of category scroll buttons by @itsschwer
+  - 2.8.2 Fixed Minor regression that caused Step Sliders to display their values as a percentage by default.
+  - 2.8.2 Changed the field formatString is now obsolete please use the property FormatString instead.
+  - 2.8.1 Added Support for latest RoR2 update.
+  - 2.8.1 `TryParseDelegate` to relevant Numeric Fields and Slider configs.
+  - 2.8.1 Notes: The RoR2 update broke RoO pretty badly, there may be some visual issues right now, but functionally everything should work again.
+- Updated [StopStealingMyMouse](https://thunderstore.io/c/riskofrain2/p/Rune580/StopStealingMyMouse/changelog/) 1.2.0 -> 1.3.0
+  - Fixed issues with SotS update.
+- Updated [FadeEmptyChests](https://thunderstore.io/c/riskofrain2/p/SSM24/FadeEmptyChests/changelog/) 1.1.1 -> 1.2.0
+  - 1.2.0 Updated the readme to clarify that I did undeprecate it on purpose (it is a huge pain in the ass that I have to make a new version just to update the readme lol)
+    - Updated to work properly on the latest Alloyed Collective patch.
+    - Added Risk of Options support.
+    - Added new fade multiplier option for when you're playing as Drifter, defaulting to 80% for only a slight fade.
+  - 1.1.4 Updated the readme to clarify that I did undeprecate it on purpose (it is a huge pain in the ass that I have to make a new version just to update the readme lol)
+  - 1.1.3 Updated the readme to clarify that the SotS update broke things in a way that doesn't seem fixable.
+  - 1.1.2 "Fixed" the Adaptive Chest setting not working. (it'll probably break again someday but we'll worry about that then)
+- Updated [SafeTravelsInSkybox](https://thunderstore.io/c/riskofrain2/p/swuff-star/SafeTravelsInSkybox/changelog/)  1.1.1 -> 2.0.1
+    - 2.0.1 Manifest update.
+    - 2.0.1 Fixed ships not appearing on Nest scene.
+    - 2.0.0 Full rewrite of the mod. Now networked and much less performance-intensive.
+    - 2.0.0 Now includes config to replace the UES Safe Travels with the UES Contact Light from RoR1/R.
+    - 2.0.0 FUTURE PLAN: Captain airstrikes aligned towards ship?
+- Updated [ColoredPingChat](https://thunderstore.io/c/riskofrain2/p/Thrayonlosa/ColoredPingChat/changelog/)  1.2.1 -> 1.2.5
+  - 1.2.5 Fix for ror2-1.4.1
+  - 1.2.4 Added color for the new elite
+  - 1.2.4 Can now customize the custom chat messages
+  - 1.2.4 Risk of options support
+  - 1.2.3 Fix for alloyed collective
+  - 1.2.2 Improved language compatibility
+  - 1.2.2 sots fix
+  - 1.2.2 Moved config
+- Updated [HighItemVizability](https://thunderstore.io/c/riskofrain2/p/VizMod/HighItemVizability/) 1.4.0 -> 1.5.0
+  - 1.5.0 Roll back to just beams so it works with current version. Console commands don't work yet.
+- Updated [WolfoQualityOfLife](https://thunderstore.io/c/riskofrain2/p/Wolfo/WolfoQualityOfLife/changelog/)  2.5.8 -> 5.1.12
+  - Too many to list, see the [official changelog](https://thunderstore.io/c/riskofrain2/p/Wolfo/WolfoQualityOfLife/changelog/)  for a list of changes.
+- Removed [Engi_M1_Autofire](https://thunderstore.io/package/Moffein/Engi_M1_Autofire/)
+  - Replaced by newly added RiskyTweaks
+- Removed [EviscerateFix](https://thunderstore.io/c/riskofrain2/p/Moffein/EviscerateFix/)
+  - Replaced by newly added RiskyTweaks
+- Removed [Fix Playercount](https://thunderstore.io/c/riskofrain2/p/Moffein/Fix_Playercount/)
+  - Replaced by newly added RiskyTweaks
+- Removed [FlurryFix](https://thunderstore.io/c/riskofrain2/p/Moffein/FlurryFix/)
+  - Replaced by newly added RiskyTweaks
+- Removed [FixDamageTrailNullref](https://thunderstore.io/c/riskofrain2/p/Moffein/FixDamageTrailNullref/)
+  - Deprecated.
+- Removed [AdditionalGraphicalSettings](https://thunderstore.io/c/riskofrain2/p/kruumy/AdditionalGraphicalSettings/)
+  - Deprecated
+- Removed [BetterJumpPads](https://thunderstore.io/c/riskofrain2/p/HIFU/BetterJumpPads/)
+  - Deprecated.
+- Removed [SkipIntro](https://thunderstore.io/c/riskofrain2/p/Bubbet/SkipIntro/)
+  - Deprecated, replaced by Skip Intro Deluxe
+- Removed [SkipToOutroText](https://thunderstore.io/c/riskofrain2/p/DestroyedClone/SkipToOutroText/)
+  - Deprecated, replaced by AutoSkipCredits
+- Removed [StutterStunterFork](https://thunderstore.io/c/riskofrain2/p/BunnySquad/StutterStunterFork/)
+  - Deprecated.
+- Removed [MultiplayerPause](https://thunderstore.io/c/riskofrain2/p/Fr4nsson/MultiplayerPause/)
+  - Deprecated.
+- Removed [BetterLoadingScreen](https://thunderstore.io/c/riskofrain2/p/Goorakh/BetterLoadingScreen/)
+  - Deprecated.
+- Removed [FixREXCrash](https://thunderstore.io/c/riskofrain2/p/Nuxlar/FixREXCrash/)
+  - Deprecated.
+- Removed [Quality of Rain](https://thunderstore.io/c/riskofrain2/p/VanillaChai/Quality_of_Rain/)
+  - Deprecated, replaced by Teleporter Turrets, RamuneCommandPauseRemade, LunarCoinShareOnPickup, and BalancedFasterInteractables
+- Updated GitHub repository to new link
+
 ## 2.0.2
+
+Note: This version was not published to Thunderstore.
 
 - Updated [VoidFiendHudTweaks](https://thunderstore.io/package/fiendtopia/VoidFiendHudTweaks/changelog/) 1.0.1 → 1.0.2
   - Fix error spam in console when another player modifies their own corruption if Corruption Delta Notices was enabled
@@ -145,11 +376,11 @@ If you want notifications you can open that page then: Click the arrow next to "
 
 ## 1.1.0 Thank you for 1000 downloads! Here's our first minor version bump
 
-- New companion modpack with mods that didn't quite make the cut! It's already on [Thunderstore](https://thunderstore.io/package/fin/REnhanced_Extras/) and [GitHub](https://github.com/fins-mods/REnhanced_Extras)
+- New companion modpack with mods that didn't quite make the cut! It's already on [Thunderstore](https://thunderstore.io/package/fin/REnhanced_Extras/) and [GitHub](https://github.com/femboyfin/REnhanced_Extras)
 - The following changes mentioned in the 1.0.7 changelog:
   - `LICENSE.txt` will be omitted from the Thunderstore package.
   - `manifest.json` will be minified
-  - `expanded-manifest.json` is available in the [GitHub repository](https://github.com/fins-mods/REnhanced).
+  - `expanded-manifest.json` is available in the [GitHub repository](https://github.com/femboyfin/REnhanced).
 - Added [HighItemVizability](https://thunderstore.io/package/VizMod/HighItemVizability/) by [VizMod](https://thunderstore.io/package/VizMod/) - "Shoots a tier colored beam to the sky at the location of a dropped item for visability across the map."
 - Added [LookStraightDown](https://thunderstore.io/package/HIFU/LookStraightDown/) by [HIFU](https://thunderstore.io/package/HIFU/) - "Allows you to look straight down, and straight up. Configurable"
 - Added [NoSelfPing](https://thunderstore.io/package/Xan/NoSelfPing/) by [Xan](https://thunderstore.io/package/Xan/) - "This mod fixes a bug that made it possible to ping yourself..."
@@ -177,7 +408,7 @@ If you want notifications you can open that page then: Click the arrow next to "
 - **<!>** Starting with 1.1.0 (which likely won't be the next release, but it could be):
   - `LICENSE.txt` will be omitted from the Thunderstore package.
   - `manifest.json` will be minified
-- Starting with this release, `expanded-manifest.json` will be included in the [GitHub repository](https://github.com/fins-mods/REnhanced) (it will  **not** be included in the Thunderstore release).
+- Starting with this release, `expanded-manifest.json` will be included in the [GitHub repository](https://github.com/femboyfin/REnhanced) (it will  **not** be included in the Thunderstore release).
   - Until 1.1.0 launches with a minified `manifest.json`, these two files will be identical.
 - Fixed typos in previous changelogs
 - Formatted JSON and Markdown files in the proper standard ways
