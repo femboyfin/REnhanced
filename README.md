@@ -30,40 +30,42 @@ Allows you to play with more than just 4 players per lobby. The base game's play
 
 All of these are in my companion modpack, [REnhanced_Extras](https://thunderstore.io/c/riskofrain2/p/fin/REnhanced_Extras)!
 
-#### [GoldChestForAll](https://thunderstore.io/c/riskofrain2/p/DestroyedClone/GoldChestForAll/) by [DestroyedClone](https://thunderstore.io/c/riskofrain2/p/DestroyedClone/)
-
-While I do use this in my day-to-day and subjectively in my opinion it makes item distribution more fair, it does objectively affect balance in a meaningful way (4 reds on your team instead of 1 on Stage 4 can be pretty impactful).
-
-#### [Aerolt](https://thunderstore.io/c/riskofrain2/p/Lodington/Aerolt/) by [Lodington](https://thunderstore.io/c/riskofrain2/p/Lodington/)
+### [Aerolt](https://thunderstore.io/c/riskofrain2/p/Lodington/Aerolt/) by [Lodington](https://thunderstore.io/c/riskofrain2/p/Lodington/)
 
 A cheating mod menu that can serve as a helpful utility and is very useful for testing, but also by nature is a cheat which can be frowned upon by some (to each their own I suppose).
 
-#### [SillyItems](https://thunderstore.io/c/riskofrain2/p/TheTimesweeper/SillyItems/) by [TheTimesweeper](https://thunderstore.io/c/riskofrain2/p/TheTimesweeper/)
+### [Cyphers Teleporter Turrets](https://thunderstore.io/c/riskofrain2/p/Cypher/Cyphers_Teleporter_Turrets/) by [Cypher](https://thunderstore.io/c/riskofrain2/p/Cypher/)
 
-Even though you could argue being able to visually see how many items each player has does serve a purpose, if we're being realistic this mod is a much more "for fun" and not really a utility.
+Despite not being particularly impactful, this absolutely does noticeably increase the viability of buying Turrets, and provides a benefit for spending any extra money players have prior to activating the Teleporter.
 
-#### [RiskOfRave](https://thunderstore.io/c/riskofrain2/p/RuneFox237/RiskOfRave/) by [RuneFox237](https://thunderstore.io/c/riskofrain2/p/RuneFox237/)
+### [GoldChestForAll](https://thunderstore.io/c/riskofrain2/p/DestroyedClone/GoldChestForAll/) by [DestroyedClone](https://thunderstore.io/c/riskofrain2/p/DestroyedClone/)
 
-Plays the song Caramelldansen and adds rainbow post processing effects during teleporter events. The only utility it has is indirectly reminding you to stay inside the teleporter circle by muffling the music when you're outside of it. Also volume preferences will differ from setup to setup and it needs to be adjusted in the config which is a bit obtrusive.
+While I do use this in my day-to-day and subjectively in my opinion it makes item distribution more fair, it does objectively affect balance in a meaningful way (4 reds on your team instead of 1 on Stage 4 can be pretty impactful).
 
-#### [NoLockedInteractables](https://thunderstore.io/c/riskofrain2/p/Cyro/NoLockedInteractables/) by [Cuckson](https://thunderstore.io/c/riskofrain2/p/Cyro/)
+### [NeverEndingRun](https://thunderstore.io/c/riskofrain2/p/Cuckson/NeverEndingRun/) by [Cyro](https://thunderstore.io/c/riskofrain2/p/Cuckson/)
+
+Spawns a portal once Mythrix has been defeated, allowing you to leave Commencement and continue your run. This again is something I saw as a QoL improvement at first, but thinking about it now, it lets you access all of the interactables Commencement has to offer.
+
+### [NoLockedInteractables](https://thunderstore.io/c/riskofrain2/p/Cyro/NoLockedInteractables/) by [Cuckson](https://thunderstore.io/c/riskofrain2/p/Cyro/)
 
 Prevents 3D printers, shrines, etc. from being locked when the teleporter event starts. Originally I saw this as a quality of life improvement. However since there's zero drawback, it really just means you can accomplish more within the same time period, which very obviously does affect balance.
 
-#### [NeverEndingRun](https://thunderstore.io/c/riskofrain2/p/Cuckson/NeverEndingRun/) by [Cyro](https://thunderstore.io/c/riskofrain2/p/Cuckson/)
-
-Spawns a portal once mythrix has been defeated, allowing you to leave Commencement and continue your run. This again is something I saw as a QoL improvement at first, but thinking about it now, it lets you access all of the interactables Commencement has to offer.
-
 #### [RealerCheatUnlocks](https://thunderstore.io/c/riskofrain2/p/prodzpod/RealerCheatUnlocks/) by [prodzpod](https://thunderstore.io/c/riskofrain2/p/prodzpod/)
+
+Used to recover previously unlocked content from corrupted saves. Effectively skips progression, so it's undeniably a form of cheat, particularly if used "unethically".
+
+### [SillyItems](https://thunderstore.io/c/riskofrain2/p/TheTimesweeper/SillyItems/) by [TheTimesweeper](https://thunderstore.io/c/riskofrain2/p/TheTimesweeper/)
+
+Even though you could argue being able to visually see how many items each player has does serve a purpose, if we're being realistic this mod is much more "for fun" and not really a utility.
+
 ## Known Issues
 
-None currently, if you run into anything please contact me on Discord either by DMs ([@femboyfin](https://discord.com/users/386945522608373785)) or in [my Discord Server](https://discord.com/invite/tcrB28MWk8) Discord server (you'll have to give me some time to give you permissions!).
-Alternatively you can open an [Issue](https://github.com/femboyfin/REnhanced/issues/new) on GitHub but you'll definitely get a slower response compared to Discord.
+None currently, if you run into anything please contact me on Discord either by DMs (@[femboyfin](https://discord.com/users/386945522608373785)), @mentioning me in the [Risk Of Rain 2 Modding](https://discord.com/invite/5MbXZvd) Discord server, or joining [my Discord Server](https://discord.com/invite/tcrB28MWk8).
+Alternatively you can open an [Issue](https://github.com/femboyfin/REnhanced_Extras/issues/new) on GitHub but you'll definitely get a slower response.
 
 ## Notes
 
 - \* Balance tweaks that do exist should be imperceptible without a direct 1:1 comparison (you'd fail a blind test)
-- † I have a beefy computer, my friends have beefy computers. If you don't have 8+ gigabytes of RAM free for the game to use, disable StutterStunterFork. **DO NOT** complain to the StutterStunterFork maintainers, you will run into issues, you have been warned
 
 ---
 
