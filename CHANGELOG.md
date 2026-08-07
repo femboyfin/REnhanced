@@ -3,9 +3,22 @@
 These are identical to those found [on GitHub](https://github.com/femboyfin/REnhanced/releases).
 If you want notifications you can open that page then: Click the arrow next to "Watch" at the top → Custom → Releases → Apply, and you'll get GitHub notifications (configurable to be push and/or email) whenever the modpack updates.
 
-## 3.0.1
+## 3.1.0
 
 - Modernized Thunderstore links
+- Added [EnemyItemDisplays](https://thunderstore.io/c/riskofrain2/p/TheTimesweeper/EnemyItemDisplays/) - Adds item displays to some monsters! | Huge rewrite. Ability to add displays without code. See Readme for contributing. | Originally by rob. Carrying on the torch, hopefully
+- Added [NoFirstStagePods](https://thunderstore.io/c/riskofrain2/p/GiGaGon/NoFirstStagePods/) - Stops the annoying pod drop on the first stage.
+- Added [UnlockMomentum](https://thunderstore.io/c/riskofrain2/p/6thmoon/UnlockMomentum/) - Minimize loss of air control, due to high velocity and similar effects.
+  - This replaces BetterJumpPads removed in 3.0.0
+- Changed [RTAutoSprintEx](https://thunderstore.io/c/riskofrain2/p/JohnEdwa/RTAutoSprintEx/) 2.1.2 -> [AutoSprint](https://thunderstore.io/c/riskofrain2/p/score/AutoSprint/) 1.5.1
+- Removed [Teleporter_Turrets](https://thunderstore.io/c/riskofrain2/p/RuneFox237/Teleporter_Turrets/)
+  - This has been included in REnhanced_Extras 2.0.0 as the modernized Cyphers Teleporter Turrets
+- Configured TeleShowRedux's Minimum Distance 100 -> 50
+  - This is intended to reduce the minor advantage provided by the mod, keeping it purely QoL
+- Configured DropInMultiplayer's CustomWelcomeMessage back to default
+- Configured QuickRestart's ResetKeyHoldTime 1m -> 1d
+  - ResetKeyEnabled is already false, this is simply a safety net to ensure the function is non-functional even if accidentally re-enabled.
+- Configured BalancedFasterInteractables's Only After Teleporter True -> False
 
 ## 3.0.0 Revival
 
