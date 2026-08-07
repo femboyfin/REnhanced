@@ -3,6 +3,10 @@
 These are identical to those found [on GitHub](https://github.com/femboyfin/REnhanced/releases).
 If you want notifications you can open that page then: Click the arrow next to "Watch" at the top → Custom → Releases → Apply, and you'll get GitHub notifications (configurable to be push and/or email) whenever the modpack updates.
 
+## 3.1.1
+
+- Adjusted README to include up-to-date REnhanced-Extras mod-list and contact information
+
 ## 3.1.0
 
 - Modernized Thunderstore links
